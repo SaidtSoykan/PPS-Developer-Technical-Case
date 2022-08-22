@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -359,6 +360,35 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/RFPSP/Demo/Other/Water/Scripts/WaterSimple.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/RFPSP/Image Effects/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/RFPSP/Image Effects/Environment/Water (Basic)/Scripts/WaterBasic.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/Displace.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/GerstnerDisplace.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/MeshContainer.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/PlanarReflection.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/SpecularLighting.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/Water.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/WaterBase.cs"
+"Assets/RFPSP/Image Effects/Environment/Water/Water/Scripts/WaterTile.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

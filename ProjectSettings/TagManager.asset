@@ -4,7 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Target
+  - NoHitMark
+  - Usable
+  - NPC
+  - gun
+  - PhysicsObject
+  - Climbable
+  - Water
+  - Dirt
+  - Metal
+  - Wood
+  - Glass
+  - Flesh
+  - Stone
+  - metal
   layers:
   - Default
   - TransparentFX
@@ -14,20 +27,20 @@ TagManager:
   - UI
   - 
   - 
+  - Gun
+  - 
+  - World Collision
+  - Player
+  - Bullet Shells
+  - NPCs
+  - GUICamera
   - 
   - 
   - 
+  - Liquid Collision
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - LeanCollider
+  - Player Clip
   - 
   - 
   - 
