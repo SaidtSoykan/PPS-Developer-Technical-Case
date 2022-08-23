@@ -169,7 +169,7 @@ public class Fire : MonoBehaviour
     }
     IEnumerator BombTime()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.05f);
         Animation anime = this.GetComponent<Animation>();
         bulletNumber += 1;
         ssound.clip = bombSound;
@@ -203,7 +203,7 @@ public class Fire : MonoBehaviour
     }
     IEnumerator SmokeTime()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.1f);
         Animation anime = this.GetComponent<Animation>();
         bulletNumber += 1;
         ssound.clip = smokeSound;

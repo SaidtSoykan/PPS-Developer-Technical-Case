@@ -15,8 +15,6 @@ ScriptsOnlyBuild:
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -135,35 +133,35 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2984}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3570}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 6118}
+      Script: {instanceID: 6120}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6472}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6630}
     - Class: 114
-      Script: {instanceID: 6692}
+      Script: {instanceID: 6690}
     - Class: 114
-      Script: {instanceID: 7008}
+      Script: {instanceID: 7006}
     - Class: 114
-      Script: {instanceID: 7080}
+      Script: {instanceID: 7078}
     - Class: 114
-      Script: {instanceID: 7202}
+      Script: {instanceID: 7200}
     - Class: 114
-      Script: {instanceID: 8340}
+      Script: {instanceID: 8338}
     - Class: 114
-      Script: {instanceID: 8820}
+      Script: {instanceID: 8818}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,33 +216,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2500}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 2984}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3570}
     - Class: 114
-      Script: {instanceID: 4596}
+      Script: {instanceID: 4598}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4718}
     - Class: 114
-      Script: {instanceID: 5000}
+      Script: {instanceID: 5002}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 5720}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6472}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6630}
     - Class: 114
-      Script: {instanceID: 7008}
+      Script: {instanceID: 7006}
     - Class: 114
-      Script: {instanceID: 7080}
+      Script: {instanceID: 7078}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
