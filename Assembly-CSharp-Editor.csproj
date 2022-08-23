@@ -59,6 +59,10 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll" />
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -343,6 +347,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>Assets\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -838,6 +845,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\com.unity.postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -4,20 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - NoHitMark
-  - Usable
-  - NPC
-  - gun
-  - PhysicsObject
-  - Climbable
-  - Water
-  - Dirt
-  - Metal
-  - Wood
-  - Glass
-  - Flesh
-  - Stone
-  - metal
+  - Target
+  - Bullet
+  - Weapons
+  - FxTemporaire
+  - Pistol
+  - Shotgun
+  - Machine
   layers:
   - Default
   - TransparentFX
