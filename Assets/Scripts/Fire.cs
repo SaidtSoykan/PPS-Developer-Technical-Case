@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Fire : MonoBehaviour
 {
     RaycastHit hit;
     public ParticleSystem flash;
     AudioSource ssound;
-    public AudioClip fireSound;
-    public AudioClip readySound;
+    public AudioClip fireSound, readySound;
     public float range;
-    private int bulletNumber = 0;
+    private static int bulletNumber = 0, hitNumber = 0;
+    public TextMeshProUGUI usedBullets, hits;
 
     void Start()
     {
@@ -26,6 +27,8 @@ public class Fire : MonoBehaviour
         {
             fire();
         }
+        usedBullets.text = "Bullets: " + bulletNumber;
+        hits.text = "Hits: " + hitNumber;
     }
     void OnEnable()
     {
@@ -39,6 +42,7 @@ public class Fire : MonoBehaviour
         {
             return;
         }
+        bulletNumber += 1;
         flash.Play();
         ssound.clip = fireSound;
         ssound.Play();
@@ -49,6 +53,7 @@ public class Fire : MonoBehaviour
             if(hit.transform.tag == "Target")
             {
                 Debug.Log(hit.transform.name);
+                hitNumber += 1;
             }
             
         }

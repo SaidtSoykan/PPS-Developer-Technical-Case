@@ -848,7 +848,7 @@ GameObject:
   - component: {fileID: 392443492}
   - component: {fileID: 392443491}
   m_Layer: 5
-  m_Name: Health
+  m_Name: Bullets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -150}
+  m_AnchoredPosition: {x: -250, y: -150}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392443491
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 'Bullets: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2387,7 +2387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 'Hits: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2486,6 +2486,8 @@ MonoBehaviour:
   fireSound: {fileID: 8300000, guid: 0761fa9e3ee158646ba8a11dc270f9c3, type: 3}
   readySound: {fileID: 8300000, guid: c8bff3ffcaa7c8741a8d94e25436413f, type: 3}
   range: 100
+  usedBullets: {fileID: 392443491}
+  hits: {fileID: 1391192358}
 --- !u!82 &1397249839
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2777,7 +2779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0618e1bc863ff4d4d8245fba14840ab1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0618e1bc863ff4d4d8245fba14840ab1, type: 3}
       propertyPath: m_TagString
@@ -3117,6 +3119,8 @@ MonoBehaviour:
   fireSound: {fileID: 8300000, guid: eb19c101e680075468ddaa277d8450f3, type: 3}
   readySound: {fileID: 8300000, guid: ce26dad1b594c644c95f85de74ead963, type: 3}
   range: 200
+  usedBullets: {fileID: 392443491}
+  hits: {fileID: 1391192358}
 --- !u!1 &1856030761
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,3 +3587,5 @@ MonoBehaviour:
   fireSound: {fileID: 8300000, guid: ce877c601ed2d8349a77196045e22c2c, type: 3}
   readySound: {fileID: 8300000, guid: 611a64b2b14508d4f9fec4b31fe0eb33, type: 3}
   range: 50
+  usedBullets: {fileID: 392443491}
+  hits: {fileID: 1391192358}

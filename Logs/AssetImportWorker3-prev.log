@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'tr' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Saidt/Documents/GitHub/PPS-Developer-Technical-Case
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52060
+Successfully changed project path to: C:/Users/Saidt/Documents/GitHub/PPS-Developer-Technical-Case
+C:/Users/Saidt/Documents/GitHub/PPS-Developer-Technical-Case
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Saidt/Documents/GitHub/PPS-Developer-Technical-Case/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1289
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009586 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 92.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (671ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Saidt\Documents\GitHub\PPS-Developer-Technical-Case\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Saidt\Documents\GitHub\PPS-Developer-Technical-Case\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3610 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (87.0 KB). Loaded Objects now: 4063.
+Memory consumption went from 137.2 MB to 137.1 MB.
+Total: 2.900200 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.239200 ms MarkObjects: 2.224300 ms  DeleteObjects: 0.151500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 798688.211894 seconds.
+  path: Assets/RFPSP/Objects/Effects/LevelLoadFadeObj.prefab
+  artifactKey: Guid(ed24fe0002c3f074d86f84b58937acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/LevelLoadFadeObj.prefab using Guid(ed24fe0002c3f074d86f84b58937acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60590be7f12cbc0c291c03b7ef1dff53') in 0.045941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.587949 seconds.
+  path: Assets/RFPSP/Objects/Effects/WeaponEffects/MuzzleSmoke.prefab
+  artifactKey: Guid(ba6f148ac96a8e9449606b9f7fa5b55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/WeaponEffects/MuzzleSmoke.prefab using Guid(ba6f148ac96a8e9449606b9f7fa5b55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3f3d5e9c6c4c66badb5d58a31f216e') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/RFPSP/Objects/Effects/WeaponEffects/UnderwaterTracer.prefab
+  artifactKey: Guid(6d3220e2e8930e44b86c3d05c3ce7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/WeaponEffects/UnderwaterTracer.prefab using Guid(6d3220e2e8930e44b86c3d05c3ce7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b91e6ca508022bfacf34efc87166379') in 0.013335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.477367 seconds.
+  path: Assets/RFPSP/Objects/Effects/ImpactEffects/particle_blood.prefab
+  artifactKey: Guid(5461e0e8cd1011c4ba8bb5369a5e8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/ImpactEffects/particle_blood.prefab using Guid(5461e0e8cd1011c4ba8bb5369a5e8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73063bd73d0be31448090c2eeeaed97d') in 0.012190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RFPSP/Objects/Effects/ImpactEffects/particle_concrete.prefab
+  artifactKey: Guid(6fc3b8efeea91e747a298ef01c3fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/ImpactEffects/particle_concrete.prefab using Guid(6fc3b8efeea91e747a298ef01c3fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c14a07b0af28d0eae70f4d863710f3d') in 0.108288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RFPSP/Objects/Effects/ImpactEffects/particle_wood.prefab
+  artifactKey: Guid(5a5ba7087d2b9b8479ef1d33b99d6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Objects/Effects/ImpactEffects/particle_wood.prefab using Guid(5a5ba7087d2b9b8479ef1d33b99d6d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaf1a46c959e58cc11bb460c3f248cd') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.306580 seconds.
+  path: Assets/RFPSP/Textures/Particles/explosion.png
+  artifactKey: Guid(efc0cb575e5166c4495e382029371e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Particles/explosion.png using Guid(efc0cb575e5166c4495e382029371e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bad905ebb868f5d054638b717a219dd') in 0.046145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RFPSP/Textures/Particles/water_foam.psd
+  artifactKey: Guid(2b1d2e766684da94aaa598c4c0b0ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Particles/water_foam.psd using Guid(2b1d2e766684da94aaa598c4c0b0ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bf76a288e6f996ed5829dfebe1f014') in 0.030337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RFPSP/Textures/Particles/spark5.png
+  artifactKey: Guid(8d018bcbeacfb9746bf398bd583f0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Particles/spark5.png using Guid(8d018bcbeacfb9746bf398bd583f0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad86b094f78903cf26f326f0d03d8eff') in 0.025327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RFPSP/Textures/Particles/spark2.png
+  artifactKey: Guid(a069c58981ef07e4db08ae7c7c6cc5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Particles/spark2.png using Guid(a069c58981ef07e4db08ae7c7c6cc5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8776b6496fd104fb24f5f5fbf967f78') in 0.019903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RFPSP/Textures/Particles/spark1.png
+  artifactKey: Guid(7e21cb262b98de64e8977f2505f19b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Particles/spark1.png using Guid(7e21cb262b98de64e8977f2505f19b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d8643ee217ef2f230a7bfc393ac67d') in 0.020080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.569871 seconds.
+  path: Assets/RFPSP/Textures/canteen.jpg
+  artifactKey: Guid(e70cac77e5fd1fe40b6df3cd063ad27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/canteen.jpg using Guid(e70cac77e5fd1fe40b6df3cd063ad27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355a56f68d2f4257d69c39093b885be6') in 0.024155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RFPSP/Textures/flashlightBeam.jpg
+  artifactKey: Guid(f2d0096e717e3f941bbe450d82d5b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/flashlightBeam.jpg using Guid(f2d0096e717e3f941bbe450d82d5b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b18c27d2c3778873b2751677eb468c2') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RFPSP/Textures/Falloff.psd
+  artifactKey: Guid(cc90a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Falloff.psd using Guid(cc90a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f273a860e4313a22e7d4de7906b006') in 0.024055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RFPSP/Textures/Grenade3.jpg
+  artifactKey: Guid(8f35b5c47aadc6549a34e397f9c292fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Grenade3.jpg using Guid(8f35b5c47aadc6549a34e397f9c292fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd117de794a0a670269f6249d42a82701') in 0.018628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RFPSP/Textures/Grenade_n.jpg
+  artifactKey: Guid(5418952be3837cc46bfae6a607edd335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Grenade_n.jpg using Guid(5418952be3837cc46bfae6a607edd335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea41f3e7dd0ee05f8c32932d710d5db') in 0.043804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RFPSP/Textures/healthkit.jpg
+  artifactKey: Guid(1db735991e738694e9ac5ab59b46fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/healthkit.jpg using Guid(1db735991e738694e9ac5ab59b46fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a5d53eef464b31c01bb50f13f5de59') in 0.021350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RFPSP/Textures/Katana.jpg
+  artifactKey: Guid(b860312b6ef14bc47941c5944a13fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/Katana.jpg using Guid(b860312b6ef14bc47941c5944a13fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad7b17945f7eed57723fe614e691227') in 0.038868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RFPSP/Textures/glassSpark.psd
+  artifactKey: Guid(fbf45257393a6d74b8cf4854efd1ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/glassSpark.psd using Guid(fbf45257393a6d74b8cf4854efd1ad29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca2015836458dc14e7cc4af47efb71e') in 0.021288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RFPSP/Textures/tracerLong.psd
+  artifactKey: Guid(325545656f1b0044e86a4a34702e1fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFPSP/Textures/tracerLong.psd using Guid(325545656f1b0044e86a4a34702e1fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3091ce3288962945e0946994c21544d6') in 0.020091 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
