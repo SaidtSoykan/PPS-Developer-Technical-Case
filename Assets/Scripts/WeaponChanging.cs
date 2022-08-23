@@ -44,9 +44,4 @@ public class WeaponChanging : MonoBehaviour
             i = 2;
         }
     }
-    void animationAndSound()
-    {
-        Animation anime = weapons[i].GetComponent<Animation>();
-        anime.Play("Ready");
-    }
 }

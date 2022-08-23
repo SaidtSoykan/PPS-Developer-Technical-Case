@@ -21,5 +21,7 @@ EditorBuildSettings:
     path: Assets/RFPSP/TerrainTest.unity
     guid: c5a2d8713a02e624daf3c98dd517520b
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a05f53fbaa6eed84eb1c68b17d79cd2b,
+      type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: be78e884b5fe5b64e9f0092f8ae335ab, type: 2}

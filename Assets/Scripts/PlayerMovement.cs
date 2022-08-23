@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //To be able to edit the walking speed from the editor
     public float walkSpeed;
     public float mouseSensitive;
     public float jumpPower;
@@ -12,25 +11,26 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject cam;
     public GameObject caps;
-
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         playerMove();
         camMove();
+        if(Input.GetKeyDown("h"))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        if(Input.GetKeyDown("l"))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
     void playerMove()
     {
-        //to get key input from user
         float x = Input.GetAxis("Vertical");
         float z = Input.GetAxis("Horizontal");
-        //to fix the extra speed in the diagonal movement
         Vector3 way = Vector3.Normalize(new Vector3(z, 0, x));
-        //to move the player according to the key pressed
         transform.Translate(way * walkSpeed * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Space) && caps.transform.position.y < 2)
         {

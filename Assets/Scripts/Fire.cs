@@ -22,6 +22,8 @@ public class Fire : MonoBehaviour
         ssound = GetComponent<AudioSource>();
         ssound.clip = readySound;
         ssound.Play();
+        smoke.Stop();
+        bomb.Stop();
     }
     
     void Update()
@@ -81,6 +83,12 @@ public class Fire : MonoBehaviour
                     MachineFire();
                     break;
             }
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            StopAllCoroutines();
+            smoke.Stop();
+            bomb.Stop();
         }
         usedBullets.text = "Bullets: " + bulletNumber;
         hits.text = "Hits: " + hitNumber;
@@ -161,16 +169,16 @@ public class Fire : MonoBehaviour
     }
     IEnumerator BombTime()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0.5f);
         Animation anime = this.GetComponent<Animation>();
         bulletNumber += 1;
-        bomb.Play();
         ssound.clip = bombSound;
         ssound.Play();
         anime["Fire"].wrapMode = WrapMode.Once;
         anime.Play("Fire");
         Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range);
-        Instantiate(explosion, hit.transform.position, Quaternion.identity);
+        explosion.transform.position = hit.transform.position;
+        bomb.Play();
         if (hit.transform.CompareTag("Target"))
         {
             Debug.Log(hit.transform.name);
@@ -195,20 +203,20 @@ public class Fire : MonoBehaviour
     }
     IEnumerator SmokeTime()
     {
+        yield return new WaitForSeconds(1);
         Animation anime = this.GetComponent<Animation>();
         bulletNumber += 1;
-        smoke.Play();
         ssound.clip = smokeSound;
         ssound.Play();
         anime["Fire"].wrapMode = WrapMode.Once;
         anime.Play("Fire");
         Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range);
-        Instantiate(fog, hit.transform.position, Quaternion.identity);
+        fog.transform.position = hit.transform.position;
+        smoke.Play();
         if (hit.transform.CompareTag("Target"))
         {
             Debug.Log(hit.transform.name);
             hitNumber += 1;
         }
-        yield return new WaitForSeconds(1);
     }
 }

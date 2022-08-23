@@ -351,8 +351,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.adaptiveperformance@3.0.2/Editor/Profiler/AdaptivePerformanceDetailsViewController.cs"
-"Library/PackageCache/com.unity.adaptiveperformance@3.0.2/Editor/Profiler/AdaptivePerformanceProfilerModule.cs"
+"Library/PackageCache/com.unity.adaptiveperformance@3.0.3/Editor/Profiler/AdaptivePerformanceDetailsViewController.cs"
+"Library/PackageCache/com.unity.adaptiveperformance@3.0.3/Editor/Profiler/AdaptivePerformanceProfilerModule.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
