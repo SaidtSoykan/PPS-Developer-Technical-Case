@@ -402,6 +402,8 @@
 "Assets/Scripts/ComponentController.cs"
 "Assets/Scripts/Fire.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/TargetMovement.cs"
+"Assets/Scripts/UI/UI.cs"
 "Assets/Scripts/WeaponChanging.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

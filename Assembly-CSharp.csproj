@@ -131,6 +131,8 @@
     <Compile Include="Assets\Scripts\WeaponChanging.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Scripts\TargetMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\RFPSP\Image Effects\Effects\ImageEffects\Shaders\Tonemapper.shader" />
